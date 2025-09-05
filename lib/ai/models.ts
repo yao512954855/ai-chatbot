@@ -17,4 +17,10 @@ export const chatModels: Array<ChatModel> = [
     name: 'Grok Reasoning',
     description: 'Uses advanced chain-of-thought reasoning for complex problems',
   },
+  // 添加 Qwen3 模型
+  {
+    id: 'qwen3',
+    name: 'qwen3 (Local)',
+    description: 'Local Qwen3 model via Ollama',
+  },
 ];
